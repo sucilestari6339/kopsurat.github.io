@@ -1,0 +1,148 @@
+  body {
+        font-family: sans-serif; 
+        background-color : #ffffcc }
+    * {
+        box-sizing: border-box;
+    }
+    .wadahsurat {
+        width : 100%;
+        max-width: 21cm;
+        max-height: 29.7cm;
+        margin: auto;
+        background: white;
+        height: 5000px;
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+        padding-right: 1cm;
+        padding-left: 1cm;
+    }
+    .sampul_kop{
+        width: 21cm 1cm 1cm;
+        height: 2.68cm;
+        display: grid;
+        grid-template-columns: 11cm 8cm;
+    }
+
+    .logo_kiri{
+        display: grid;
+        grid-template-columns: 2cm auto;
+    }
+
+    .sampul_logo{
+        text-align: center;
+    }
+    .wadah_logo{
+        height: 2.08cm;
+    }
+    table {
+        border-bottom : 5px solid # 000; 
+        padding: 2px
+    }
+
+    .sampul-logo{
+        text-align: center;
+    }
+
+    .logo-ikmi{
+        width: 2cm;
+        margin-top: 5px;
+    }
+
+    .tengah {
+        text-align : center;
+        line-height: 5px;
+    }
+
+    .huruf-kampus{
+        font-size: 9.2px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        text-align: center;
+        background: lightgreenz;
+        padding-right: 5px;
+        padding-top: 5px;
+
+    }
+
+    .huruf_stmik{
+        display: grid;
+        grid-template-columns: 5.7cm auto;
+
+    }
+
+    .huruf-stmik{
+        font-size: 60px;
+        font-weight: bold;
+        color: red;
+        margin-top: -5px;
+        letter-spacing: 5px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .huruf-ikmi{
+        padding-left: 12px;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 5px;
+        color: blue;
+        background: lightbluez;
+        font-size: 33px;
+        letter-spacing: 10px;
+    }
+
+    .huruf-cirebon{
+        padding-left: 10px;
+        text-align: left;
+        font-weight: bold;
+        color: green;
+        letter-spacing: 5.5px;
+        font-size: 16px;
+        margin-top: -7px;
+    }
+    .wadah-alamat{
+        padding-top: 5px;
+        padding-left: 20px;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .wadah-logo{
+        height: 2.08cm;
+    }
+    .warna_sk{
+        text-align: center;
+        color: white;
+        background: brown;
+    }
+
+    .sampul_sk{
+        height: 2.68cm 2.08cm;
+        padding-top: 1.5px;
+    }
+
+    .warna_terakreditasi{
+        text-align: center;
+        color: white;
+        background: green;
+    }
+
+    .area-ketik{
+        width: 21cm 1cm 1cm;
+        height: 29.7cm 1cm 1cm 2.68cm;
+    }
+
+    .judul-surat{
+        text-align: center;
+        margin: 15px 0 0 0;
+        font-size: 16pt;
+        letter-spacing: 2px;
+        text-decoration: underline;
+    }
+
+    .nomor-surat{
+        text-align: center;
+        font-size: 16px;
+        margin-top: -3px;
+        font-family: consolas;
+    }
